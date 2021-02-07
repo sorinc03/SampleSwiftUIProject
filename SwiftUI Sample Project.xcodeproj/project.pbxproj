@@ -15,6 +15,9 @@
 		00FB511C25A893DD00F04383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FB511A25A893DD00F04383 /* LaunchScreen.storyboard */; };
 		00FB512725A893DD00F04383 /* SwiftUI_Sample_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB512625A893DD00F04383 /* SwiftUI_Sample_ProjectTests.swift */; };
 		00FB513225A893DD00F04383 /* SwiftUI_Sample_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB513125A893DD00F04383 /* SwiftUI_Sample_ProjectUITests.swift */; };
+		00FB514A25A893FA00F04383 /* StaticContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB514925A893FA00F04383 /* StaticContentViewController.swift */; };
+		00FB514F25A8945B00F04383 /* StaticContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB514E25A8945B00F04383 /* StaticContentView.swift */; };
+		00FB515425A91F7300F04383 /* StaticContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB515325A91F7300F04383 /* StaticContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		00FB512D25A893DD00F04383 /* SwiftUI Sample ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Sample ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FB513125A893DD00F04383 /* SwiftUI_Sample_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Sample_ProjectUITests.swift; sourceTree = "<group>"; };
 		00FB513325A893DD00F04383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FB514925A893FA00F04383 /* StaticContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticContentViewController.swift; sourceTree = "<group>"; };
+		00FB514E25A8945B00F04383 /* StaticContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticContentView.swift; sourceTree = "<group>"; };
+		00FB515325A91F7300F04383 /* StaticContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				00FB511825A893DD00F04383 /* Assets.xcassets */,
 				00FB511A25A893DD00F04383 /* LaunchScreen.storyboard */,
 				00FB511D25A893DD00F04383 /* Info.plist */,
+				00FB514925A893FA00F04383 /* StaticContentViewController.swift */,
+				00FB515325A91F7300F04383 /* StaticContentViewModel.swift */,
+				00FB514E25A8945B00F04383 /* StaticContentView.swift */,
 			);
 			path = "SwiftUI Sample Project";
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			files = (
 				00FB511425A893DC00F04383 /* ViewController.swift in Sources */,
 				00FB511025A893DC00F04383 /* AppDelegate.swift in Sources */,
+				00FB514A25A893FA00F04383 /* StaticContentViewController.swift in Sources */,
+				00FB514F25A8945B00F04383 /* StaticContentView.swift in Sources */,
+				00FB515425A91F7300F04383 /* StaticContentViewModel.swift in Sources */,
 				00FB511225A893DC00F04383 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CFPCEEGBF;
 				INFOPLIST_FILE = "SwiftUI Sample Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CFPCEEGBF;
 				INFOPLIST_FILE = "SwiftUI Sample Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
